@@ -7,8 +7,8 @@ public class LoopAppMain {
         // int result = app.sumOneToTen() ;
         // System.out.println(result);
 
-        // int result = app.sumStartToEnd(1, 10000) ;
-        // System.out.println(result);
+        int result = app.sumStartToEnd(1, 700) ;
+        System.out.println(result);
 
         // int result = app.sumStartToEnd3(1, 10000) ;
         // System.out.println(result);
