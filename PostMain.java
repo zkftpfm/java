@@ -1,5 +1,6 @@
 import siat.study.PostDTO;
 import siat.study.post.dao.PostDAO;
+import siat.study.post.domain.PostRequestDTO;
 import siat.study.service.PostService;
 import siat.study.view.PostView;
 

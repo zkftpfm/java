@@ -48,9 +48,9 @@ public class PostView {
 
     public void select() {
         // PostDAO dao = PostDAO.builder().build();
-        PostResponseDTO[] responseAry = dao.selectRow() ;
+        PostRequestDTO[] responseAry = dao.selectRow() ;
         System.out.println(">>> 게시글 출력");
-        for (PostResponseDTO entity : responseAry ){
+        for (PostRequestDTO entity : responseAry ){
             if(entity != null)
             System.out.println(entity);
         }

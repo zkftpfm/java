@@ -15,7 +15,7 @@ public class PostDAO {
 
     private PostRequestDTO[] requestAry ;
     private int idx ;
-    
+
     public void insertRow(PostRequestDTO request) {
         requestAry[idx++] = request;
     }
