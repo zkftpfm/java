@@ -27,4 +27,9 @@ public class StudentVO extends PersonVO{
             return super.perInfo()+"\t 학번 :"+this.getStuID() ;
 
 }
+
+        public String perInfo() {
+            return "이름 : "+this.getName()+"\t 주소 :"+this.getAddr() ;
+}
+
 }
