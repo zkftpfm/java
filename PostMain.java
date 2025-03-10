@@ -10,8 +10,8 @@ public class PostMain {
 
         PostView view = PostView.builder()
                             .dao(PostDAO.builder()
-                            .requestAry(new PostRequestDTO[10])
-                            .build())
+                                        .requestAry(new PostRequestDTO[10])
+                                        .build())
                         .build();
         view.menu();
 
