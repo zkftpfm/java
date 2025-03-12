@@ -4,7 +4,7 @@ public class SamsungTV implements TV {
 
     @Override
     public void powerOn() {
-        System.out.println("Samsung TV powerOn");
+        System.out.println("Samsung TV powerOn ");
     }
 
     // public void powerOn() {

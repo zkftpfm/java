@@ -6,6 +6,10 @@ public class TeacherVO extends PersonVO{
         //TODO Auto-generated constructor stub
     }
 
+    public TeacherVO() {
+        
+    }
+
     private String subject;
     
 }

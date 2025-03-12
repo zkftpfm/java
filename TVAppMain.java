@@ -5,7 +5,7 @@ public class TVAppMain {
     public static void main(String[] args) {
         
         TVFactory factory = TVFactory.getInstance() ;
-        TV tv = factory. getBrand("lg");
+        TV tv = factory.getBrand("lg");
         tv.powerOn();
     }
 }
