@@ -43,7 +43,7 @@ public class ArrayListMain {
         System.out.println(">>> ");
         List<String> strLst = new ArrayList<String>() ;
         strLst.add("siat"); strLst.add("doremi");
-
+        System.out.println(">>> "+strLst);
         // //////
 
         List<PersonVO> perLst = new ArrayList<PersonVO>();
